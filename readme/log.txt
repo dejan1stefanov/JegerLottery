@@ -1,0 +1,7 @@
+2021-11-16 01:32:41: SQLSTATE[HY000] [1049] Unknown database 'myblog'
+2021-11-18 03:44:55: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+2021-11-18 03:45:01: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+2021-11-18 03:45:05: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+2021-11-18 03:45:38: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+
+

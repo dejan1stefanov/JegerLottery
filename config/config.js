@@ -1,0 +1,1 @@
+export let urlPath = "http://localhost/Test/ProjectJegerProba/ReceiptsReadingSoftwareProjectSpecification/Jegermaister_Proba";

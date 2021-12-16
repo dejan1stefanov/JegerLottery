@@ -1,0 +1,200 @@
+/* ======================== Colors ========================= */
+.bg-orange {
+    background-color: orange;
+}
+.heroTextColor {
+  color: #E9E3C7;
+}
+/* ========================= Email ======================== */
+.emptyEmailError {
+    font-size: 12px;
+}
+.fontSize12 {
+    font-size: 12px;
+}
+
+#databaseSuccess {
+    display: none;
+}
+/* ======================= Upload Files Area ================= */
+.uploadArea {
+  width: 80%;
+  height: 200px;
+  border: 2px dashed grey;
+  position: relative;
+  margin: auto;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.uploadArea p{
+  text-align: center;
+  color: grey;
+  font-family: Arial;
+}
+
+.uploadArea input{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  outline: none;
+  opacity: 0;
+}
+.errorSuccess {
+    display: none;
+}
+.noFileError {
+    display: none;
+}
+.sendInfoBtn:hover {
+  background-color: rgb(223, 145, 0);
+}
+/* ============================ Hero Section ===================== */
+#hero {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#hero .titleDiv {
+  width: 300px;
+}
+.btn-outline-warning  {
+  color: #DA5420!important;
+  border-color: #DA5420!important;
+}
+.btn-outline-warning:hover  {
+  background-color: #DA5420!important;
+  color: white!important;
+}
+.btn-outline-warning:focus {
+  box-shadow: 0 0 0 0.1rem #DA5420;
+}
+.subtitle {
+  font-weight: 400!important;
+}
+/* ================================ Main Section ======================= */
+.lent {
+  width: 260px;
+  height: 1rem;
+  background-color: #DA5420;
+}
+.subtitleMain {
+  /* font-size: 3rem; */
+  color: #300B01;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.btn-warning {
+  color: white;
+  background-color: #DA5420;
+  border-color: #DA5420;
+}
+.btn-warning:hover {
+  color: white!important;
+  background-color: #c24a1b!important;
+  border-color: #DA5420!important;
+}
+.btn-warning:focus {
+  box-shadow: 0 0 0 0.1rem #DA5420!important;
+  background-color: #c24a1b!important;
+  border-color: #c24a1b!important;
+  color: white!important;
+}
+
+  /* =================================== Carousel ============================= */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .carousel {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  /* ============================= FOOTER ================= */
+  footer {
+    background-image: url(../img/footerBg.jpg);
+    background-size: cover;
+  }
+  .footerParent a {
+    color: #E9E3C7;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-decoration: none;
+  }
+  .footerParent a:hover {
+    color: #DA5420;
+    transition: 500ms;
+  }
+  .middleFooterCol {
+    border-left: 2px solid #DA5420;
+    border-right: 2px solid #DA5420;
+  }
+  .fa-facebook,
+  .fa-instagram {
+    font-size: 4rem;
+    color: #E0BB66;
+  }
+  .weblink {
+    font-size: 10px;
+    text-decoration: none;
+    color: #E9E3C7;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  .weblink:hover {
+    color: #DA5420!important;
+    transition: 500ms;
+  }
+  .contactBtn {
+    cursor: pointer;
+  }
+
+  /* ========================== Media =================== */
+  @media (max-width: 991px) {
+    .row .middleFooterCol {
+      display: none!important;
+    }
+  }
